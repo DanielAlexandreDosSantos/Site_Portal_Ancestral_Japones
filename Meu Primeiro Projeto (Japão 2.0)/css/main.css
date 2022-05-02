@@ -1,0 +1,215 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+width: 100%;
+height: 100px;
+}
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo {
+    float: left;
+ padding: 15px;
+ width: 70%;
+}
+.icones-redes-socias ul li {
+    margin: 20px;
+    margin-left: 3px;
+    display: inline-block;
+
+}
+.icones-redes-socias{
+width: 25%;
+float: right
+}
+.header-2 {
+background-color: white;
+width: 980px;
+margin: 0 auto;
+padding: 16px;
+}
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid gray;   
+}
+.menu ul li {
+    display: inline-block;
+    color: DimGray;
+    margin-left: 25px;
+    height: 42px;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid red;
+}
+.menu ul li a:hover {
+    color: red;
+
+}
+.menu ul li a {
+    color: #363636;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.buscar {
+    text-align: center;
+    width: 30%;
+    float: right; 
+}
+.buscar input {
+    background-image: url('../img/lupinha_icon.png');
+    background-repeat: no-repeat;
+    background-position: 97%;
+    margin-top: 10px;
+    height: 12px;
+    width: 150px;
+    padding: 15px;
+    border: 1px solid #d6d6d6;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 48px;
+    height: 48px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/seta_esq.png');
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    cursor: pointer;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 48px;
+    height: 48px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/seta_dir.png');
+    position: absolute;
+    top: 38%;
+    right: 2%;
+    cursor: pointer;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid white;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 620px; 
+}
+
+li.slick-active button {
+    background: red;
+}
+
+.slick-dots li {
+    padding-left: 12px;
+    display: inline-block;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #363636;
+}
+.texto-destaque strong {
+    color: #000000;
+}
+.texto-destaque p {
+    font-size: 20px;
+    color: #4F4F4F;
+}
+.col-3 {
+    padding: 1m;
+    width: 33.3%;
+    float: left;
+    position: relative;
+}
+.bloco-texto {
+    margin-top: 2em;
+}
+
+
+
+
+
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 385px;
+    border: 3px solid #c5c5c5;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+h3 {
+    font-weight: normal!important;
+}
+.bloco-imagens-texto {
+    background-color: #DCDCDC;
+}
+.bloco-imagens-texto:before {
+    width: 0%; 
+    height: 0; 
+    display: inline-block;
+    content: '';
+    background: #ffffff;
+    border-left: 674.5px solid transparent;
+    border-right: 674.5px solid transparent;
+    border-bottom: 25px solid #DCDCDc;
+
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+}
